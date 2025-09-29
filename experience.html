@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Experience - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Victor</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Experience</h1>
+            <p>My work experience. </p>
+            <div class="experience-list">
+                <div class="experience-card">
+                    <h2>IT Intern, Kabarak University</h2>
+                    <p>2024 - Present<br>Supporting IT infrastructure and assisting in web development projects as part of my university studies.</p>
+                </div>
+                <div class="experience-card">
+                    <h2>High School Tech Club Member</h2>
+                    <p>2021 - 2023<br>Participated in coding competitions and helped organize tech events at my high school.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+    .experience-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .experience-card {
+        background: #161616;
+        border: 1px solid #b74b4b;
+        border-radius: 1rem;
+        padding: 2rem;
+        min-width: 220px;
+        max-width: 300px;
+        flex: 1 1 220px;
+        color: white;
+        box-shadow: 0 0 10px #b74b4b33;
+        transition: transform 0.2s;
+    }
+    .experience-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #b74b4b;
+    }
+    @media (max-width: 900px) {
+        .experience-list {
+            flex-direction: column;
+            align-items: center;
+        }
+        .experience-card {
+            max-width: 90vw;
+        }
+    }
+    </style>
+    <footer style="width:100%;text-align:center;padding:2rem 0;background:#161616;color:#b74b4b;font-size:1.2rem;position:relative;bottom:0;">
+        &copy; 2025 Victor Kuto. All rights reserved.
+    </footer>
+</body>
+</html>

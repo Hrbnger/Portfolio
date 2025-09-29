@@ -10,13 +10,77 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Kuto</a>
-        <a href="#">Services</a>
-        <a href="#">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">Contact</a>
+        <a href="index.html" class="logo">Victor</a>
+        <nav class="nav-menu">
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
+    <script>
+    function toggleMenu() {
+        var nav = document.querySelector('.nav-menu');
+        nav.classList.toggle('active');
+    }
+    </script>
+    <style>
+    .nav-menu {
+        display: flex;
+        gap: 2rem;
+    }
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburger span {
+        display: block;
+        height: 4px;
+        width: 100%;
+        background: #b74b4b;
+        margin: 4px 0;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+    @media (max-width: 700px) {
+        .nav-menu {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100vw;
+            background: rgba(22,22,22,0.95);
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 2rem 0;
+            box-shadow: 0 4px 24px rgba(183,75,75,0.2);
+            transform: translateY(-400px);
+            opacity: 0;
+            pointer-events: none;
+            transition: 0.3s;
+            z-index: 999;
+        }
+        .nav-menu.active {
+            transform: translateY(0);
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .hamburger {
+            display: flex;
+        }
+    }
+    </style>
     <section class="home">
 <div class="home-img">
   <img src="dark.jpg" alt="">
@@ -31,8 +95,16 @@
      <a href="#"><i class="fa-brands fa-instagram"></i></a>
      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
   </div>
-    <a href="#" class="btn">Hire me</a>
+    <a href="contact.html" class="btn">Hire me</a>
 </div>
     </section>
+    <section class="about-me" style="margin:3rem auto;padding:2rem;background:rgba(22,22,22,0.7);border-radius:1rem;color:white;max-width:700px;">
+        <h2>About Me</h2>
+        <p>Hello! I'm Victor, a passionate IT student at Kabarak University. I love building modern websites, designing user interfaces, and solving real-world problems with technology. My interests include web development, UI/UX design, and learning new programming languages. I'm always eager to collaborate and take on new challenges!</p>
+        <a href="cv.pdf" class="btn" download style="margin-top:1.5rem;background:#b74b4b;color:white;">Download CV</a>
+    </section>
 </body>
+ <footer style="width:100%;text-align:center;padding:2rem 0;background:#161616;color:#b74b4b;font-size:1.2rem;position:relative;bottom:0;">
+        &copy; 2025 Victor Kuto. All rights reserved.
+    </footer>
 </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Education - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Victor</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Education</h1>
+            <p>My education background.</p>
+            <div class="education-list">
+                <div class="education-card">
+                    <h2>Kabarak University</h2>
+                    <p>Diploma in Information Technology, 2024 - Present</p>
+                </div>
+                <div class="education-card">
+                    <h2>Saint Patrick's High</h2>
+                    <p>KCSE Certificate, 2020 - 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+    .education-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .education-card {
+        background: #161616;
+        border: 1px solid #b74b4b;
+        border-radius: 1rem;
+        padding: 2rem;
+        min-width: 220px;
+        max-width: 300px;
+        flex: 1 1 220px;
+        color: white;
+        box-shadow: 0 0 10px #b74b4b33;
+        transition: transform 0.2s;
+    }
+    .education-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #b74b4b;
+    }
+    @media (max-width: 900px) {
+        .education-list {
+            flex-direction: column;
+            align-items: center;
+        }
+        .education-card {
+            max-width: 90vw;
+        }
+    }
+    </style>
+    <footer style="width:100%;text-align:center;padding:2rem 0;background:#161616;color:#b74b4b;font-size:1.2rem;position:relative;bottom:0;">
+        &copy; 2025 Victor Kuto. All rights reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Victor</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Contact</h1>
+            <p>Contact me using the details below. </p>
+            <div class="contact-list">
+                <div class="contact-card">
+                    <h2>Email</h2>
+                    <p>kutovictor7@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <h2>LinkedIn</h2>
+                    <p><a href="https://linkedin.com/in/victor-kuto" target="_blank">linkedin.com/in/victor-kuto</a></p>
+                </div>
+                <div class="contact-card">
+                    <h2>WhatsApp</h2>
+                    <p>+254 706805629</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+    .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .contact-card {
+        background: #161616;
+        border: 1px solid #b74b4b;
+        border-radius: 1rem;
+        padding: 2rem;
+        min-width: 220px;
+        max-width: 300px;
+        flex: 1 1 220px;
+        color: white;
+        box-shadow: 0 0 10px #b74b4b33;
+        transition: transform 0.2s;
+    }
+    .contact-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #b74b4b;
+    }
+    @media (max-width: 900px) {
+        .contact-list {
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-card {
+            max-width: 90vw;
+        }
+    }
+    </style>
+    <footer style="width:100%;text-align:center;padding:2rem 0;background:#161616;color:#b74b4b;font-size:1.2rem;position:relative;bottom:0;">
+        &copy; 2025 Victor Kuto. All rights reserved.
+    </footer>
+</body>
+</html>

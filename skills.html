@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skills - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Victor</a>
+        <a href="services.html">Services</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Skills</h1>
+            <p>These are my professional skills.</p>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <h2>HTML & CSS</h2>
+                    <p>Semantic markup and modern, responsive styling.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>JavaScript</h2>
+                    <p>Dynamic web applications and interactivity.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>Python</h2>
+                    <p>Backend development, scripting, and automation.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>UI/UX Tools</h2>
+                    <p>Figma, Adobe XD, and design systems.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>Next.js</h2>
+                    <p>Building fast, scalable React applications with server-side rendering.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>PHP</h2>
+                    <p>Server-side scripting and dynamic website development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .skill-card {
+        background: #161616;
+        border: 1px solid #b74b4b;
+        border-radius: 1rem;
+        padding: 2rem;
+        min-width: 220px;
+        max-width: 300px;
+        flex: 1 1 220px;
+        color: white;
+        box-shadow: 0 0 10px #b74b4b33;
+        transition: transform 0.2s;
+    }
+    .skill-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #b74b4b;
+    }
+    @media (max-width: 900px) {
+        .skills-list {
+            flex-direction: column;
+            align-items: center;
+        }
+        .skill-card {
+            max-width: 90vw;
+        }
+    }
+    </style>
+    <footer style="width:100%;text-align:center;padding:2rem 0;background:#161616;color:#b74b4b;font-size:1.2rem;position:relative;bottom:0;">
+        &copy; 2025 Victor Kuto. All rights reserved.
+    </footer>
+</body>
+</html>

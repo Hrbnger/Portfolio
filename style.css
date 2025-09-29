@@ -1,3 +1,15 @@
+@media (min-width: 1200px) {
+    html { font-size: 70%; }
+    .logo { font-size: 3.5rem; }
+    header > a, header a { font-size: 2rem; }
+    .home .home-content { font-size: 3rem; }
+    .home .home-content h1 { font-size: 4rem; }
+    .home-content h3 { font-size: 2.5rem; }
+    .home-img img { max-width: 350px; }
+    .btn { font-size: 2rem; padding: 1.5rem 3rem; }
+    .social-icons a { width: 5rem; height: 5rem; font-size: 3rem; }
+    p { font-size: 1.8rem; }
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 * {
     margin: 0;
@@ -216,7 +228,7 @@ span{
     position: absolute;
     width:  calc(100% + 8px);
     height: 100%;
-    background-color:black;
+    background-color:transparent;
     animation: cursor 0.6s infinite;
     right: -8;
     border-left: 3px solid black;
@@ -249,11 +261,11 @@ span{
 
 /* Responsive and scalable design for all devices */
 html {
-    font-size: 62.5%; /* 1rem = 10px for easy scaling */
+    font-size: 70%; /* 1rem = 11.2px for bigger base font */
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .logo {
@@ -266,7 +278,8 @@ header > a, header a {
 }
 
 .home {
-    display: flex;
+        box-shadow: none;
+        backdrop-filter: none;
     flex-wrap: wrap;
     gap: 4rem;
 }
@@ -299,12 +312,12 @@ header > a, header a {
 }
 
 @media (max-width: 1200px) {
-    html { font-size: 56%; }
+    html { font-size: 62%; }
     .home { gap: 2rem; }
     .home-img img { max-width: 180px; }
 }
 @media (max-width: 900px) {
-    html { font-size: 50%; }
+    html { font-size: 58%; }
     header { padding: 1rem 2vw; }
     .home { flex-direction: column; gap: 2rem; }
     .home-img img { max-width: 140px; }
@@ -313,7 +326,7 @@ header > a, header a {
     .btn { font-size: 1rem; padding: 0.8rem 1.5rem; }
 }
 @media (max-width: 600px) {
-    html { font-size: 45%; }
+    html { font-size: 54%; }
     header { flex-direction: column; padding: 0.5rem 1vw; }
     .logo { font-size: 2rem; }
     header > a, header a { font-size: 1rem; margin-left: 1rem; }
