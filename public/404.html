@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; url=/Portfolio/" />
+    <script>
+      // Preserve path by redirecting to hash-based route
+      (function() {
+        var path = location.pathname.replace(/^\/Portfolio\//, "");
+        var redirect = "/Portfolio/#/" + path + location.search + location.hash;
+        location.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
