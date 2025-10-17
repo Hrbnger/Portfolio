@@ -12,6 +12,14 @@ const Projects = () => {
       demoUrl: "https://soil-sense-smart.lovable.app/",
       githubUrl: "https://github.com/Hrbnger/AgriSense",
     },
+     {
+      title: "Quest tracker",
+      description: "A web application for setting up quests or tasks for your own and it monitors it.",
+      tags: ["React Native", "TypeScript", "Supabase", "Tailwind CSS"],
+      image: "public/agri.jpg",
+      demoUrl: "https://joyful-quest-track.lovable.app/",
+      githubUrl: "https://github.com/Hrbnger/quest-tracker",
+    },
     
   ];
 
