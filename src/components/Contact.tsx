@@ -48,11 +48,11 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Mail, label: "Email", href: "mailto:kutovictor7@gmail.com", color: "primary" },
+    { icon: Mail, label: "Email", href: "kutovictor7@gmail.com", color: "primary" },
     { icon: Instagram, label: "Instagram", href: "#", color: "accent" },
-    { icon: Phone, label: "WhatsApp", href: "#", color: "secondary" },
+    { icon: Phone, label: "WhatsApp", href: "+254706805629", color: "secondary" },
     { icon: Linkedin, label: "LinkedIn", href: "#", color: "primary" },
-    { icon: Github, label: "GitHub", href: "#", color: "accent" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Hrbnger", color: "accent" },
   ];
 
   return (

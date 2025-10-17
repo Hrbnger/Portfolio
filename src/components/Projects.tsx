@@ -5,12 +5,11 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
-      description: "A full-featured mobile shopping experience with seamless checkout and real-time inventory tracking.",
-      tags: ["React Native", "TypeScript", "Firebase", "Stripe"],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
-      demoUrl: "#",
-      githubUrl: "#",
+      title: "AgriSense Web App",
+      description: "A web application for farmers to track their crops and livestock, and get real-time insights on their farming activities.",
+      tags: ["React Native", "TypeScript", "Supabase", "Tailwind CSS"],
+      image: "/images/agrisense.png",
+      githubUrl: "https://github.com/Hrbnger/AgriSense",
     },
     {
       title: "Fitness Tracking Platform",
