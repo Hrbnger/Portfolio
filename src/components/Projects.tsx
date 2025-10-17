@@ -8,7 +8,8 @@ const Projects = () => {
       title: "AgriSense Web App",
       description: "A web application for farmers to track their crops and livestock, and get real-time insights on their farming activities.",
       tags: ["React Native", "TypeScript", "Supabase", "Tailwind CSS"],
-      image: "/images/agrisense.png",
+      image: "/images/agrisense.jpg",
+      url:"https://soil-sense-smart.lovable.app/",
       githubUrl: "https://github.com/Hrbnger/AgriSense",
     },
     {
