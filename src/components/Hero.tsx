@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "public/dark.jpg";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
