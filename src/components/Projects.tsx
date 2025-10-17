@@ -9,32 +9,18 @@ const Projects = () => {
       description: "A web application for farmers to track their crops and livestock, and get real-time insights on their farming activities.",
       tags: ["React Native", "TypeScript", "Supabase", "Tailwind CSS"],
       image: "public/agri.jpg",
+      demoUrl: "https://soil-sense-smart.lovable.app/",
       githubUrl: "https://github.com/Hrbnger/AgriSense",
     },
-    {
-      title: "Fitness Tracking Platform",
-      description: "Cross-platform fitness app with AI-powered workout recommendations and progress analytics.",
-      tags: ["Flutter", "TensorFlow", "Node.js", "MongoDB"],
-      image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&auto=format&fit=crop",
-      demoUrl: "#",
-      githubUrl: "#",
+     {
+      title: "Quest tracker",
+      description: "A web application for setting up quests or tasks for your own and it monitors it.",
+      tags: ["React Native", "TypeScript", "Supabase", "Tailwind CSS"],
+      image: "public/agri.jpg",
+      demoUrl: "https://joyful-quest-track.lovable.app/",
+      githubUrl: "https://github.com/Hrbnger/quest-tracker",
     },
-    {
-      title: "Social Media Dashboard",
-      description: "Real-time social media analytics dashboard with custom visualizations and automated reporting.",
-      tags: ["React", "D3.js", "Express", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "AI Content Generator",
-      description: "Creative AI tool for generating marketing content with customizable tone and style preferences.",
-      tags: ["Next.js", "OpenAI", "Tailwind", "Supabase"],
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop",
-      demoUrl: "#",
-      githubUrl: "#",
-    },
+    
   ];
 
   return (
